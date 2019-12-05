@@ -10,7 +10,11 @@ function App() {
   
   return (
     <div> 
+      <head>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet"></link>
+      </head>
       <div align='center' className='title-bar'>
+      
         <h1 className='title'><b>PET CONNECTIONS</b></h1>
       </div>
       <div align='center' className='Nav-bar-bottom'>
