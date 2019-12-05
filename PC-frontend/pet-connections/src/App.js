@@ -10,19 +10,27 @@ function App() {
   
   return (
     <div> 
-      <div align='center'>
-        <h1><b>PET CONNECTIONS</b></h1>
+      <head>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet"></link>
+      </head>
+      <div align='center' className='title-bar'>
+      
+        <h1 className='title'><b>PET CONNECTIONS</b></h1>
       </div>
-      <hr />
-      <div align='center'>
-        <button a href='#'>Messages</button><button a href='#'>Profile</button><button a href='#'>Account</button><button a href='#'>Search</button><button a href='#' align='right'>LogOut</button>   
+      <div align='center' className='Nav-bar-bottom'>
+      <hr  className = 'Hr-bottom'/>
+        <button a href='#'>Messages</button>
+        <select a href='#' className='Profile-button' ><option>Profile</option><option>Update Profile</option></select>
+        <select a href='#' className='Account-button'><option>Account</option><option>Update Account</option></select>
+        <button a href='#'>Search</button>
+        <button a href='#' align='right'>LogOut</button>   
+        <hr className='Hr-bottom' />
       </div>
-      <hr />
       <div>
-        <BrowserRouter>
-        <div>
-          <Route exact path="/login" component={Login}/>
-        </div>
+      <BrowserRouter>
+      <div>
+        <Route exact path="/login" component={Login}/>
+      </div>
         </BrowserRouter>
       </div>
     </div>

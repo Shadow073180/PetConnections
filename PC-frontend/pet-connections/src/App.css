@@ -20,3 +20,38 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Nav-bar-bottom {
+  background-color:lightblue;
+  border-style: solid;
+  border-width: 5px;
+
+}
+
+.Hr-bottom {
+  background-color:black;
+  
+}
+
+.title {
+  font-family:cursive;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  border-style: solid;
+  border-width: 5px;
+  border-color:gray;
+}
+
+.title-bar{
+  margin : 0em;
+  background-color:lightblue;
+  
+}
+
+.Profile-button{
+  height: 1.8em;
+  
+}
+.Account-button{
+  height: 1.8em;
+}
