@@ -55,3 +55,82 @@
 .Account-button{
   height: 1.8em;
 }
+
+.profile{
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  padding: 10px;
+}
+
+.profile-grabber{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.dater-pic{
+  float: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: 10em;
+  margin-right:3em;
+  padding:5px;
+  
+}
+
+.profile-username{
+  float:right;
+  margin-left: 1em;
+  margin-right: 8em;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-line: underline;
+}
+
+.profile-aboutme{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 400px;
+  height: 205px;
+  margin-left: 10em;
+  padding: 5px;
+  float: left;
+  margin-right: 3em;
+}
+
+.children{
+  font-style: italic;
+}
+
+.dog-picture{
+  float: right;
+  margin-left:3em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: 10em;
+  margin-right:10em;
+  padding:5px;
+  
+  
+}
+
+.dog-info{
+  margin-left:6.5em;
+}
+
+.about-pet{
+
+ margin-left:10em;
+ border-style: solid;
+ border-width: 2px;
+ border-color:black;
+ width: 400px;
+ height: 150px;
+ padding:5px;
+}
+
+
