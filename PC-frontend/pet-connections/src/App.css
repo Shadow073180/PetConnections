@@ -217,6 +217,20 @@
   margin-right: 30px;
 }
 
+.account-title{
+  text-align: center;
+  font-size: 3em;
+}
+
+.account-info{
+  margin-left:5em;
+}
+
+.account-info-cancel-button {
+  float:right;
+  margin-right:3em;
+  margin-top:10px;
+}
 
 
 

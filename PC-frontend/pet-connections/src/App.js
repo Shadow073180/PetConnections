@@ -5,6 +5,7 @@ import './App.css';
 import Login from './components/Login'
 import Profile from './components/Profile'
 import Search from './components/Search'
+import My_Account from './components/My_Account'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route exact path="/login" component={Login}/>
         <Route exact path = "/profile" component={Profile}/>
         <Route exact path = "/search" component={Search}/>
+        <Route exact path = "/my_account" component={My_Account} />
       </div>
         </BrowserRouter>
       </div>
