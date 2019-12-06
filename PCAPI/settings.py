@@ -40,6 +40,8 @@ CORS_ORIGIN_WHITELIST = ('//petcapi.herokuapp.com')
 
 # Application definition
 
+# Please work you b&&&&
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
