@@ -44,7 +44,7 @@ class Potential(models.Model):
     dater = models.ForeignKey(Dater, on_delete=models.CASCADE, related_name='potentials')
 
     def __str__(self):
-        return f"{self.dater.dater_name}"
+        return f"{self.dater}"
 
 class Message(models.Model):
     title = models.CharField(max_length = 255)
