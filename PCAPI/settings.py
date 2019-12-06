@@ -1,3 +1,6 @@
+
+import django_heroku
+
 """
 Django settings for PCAPI project.
 
@@ -9,13 +12,12 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-import django_heroku
+
 
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -25,6 +27,8 @@ SECRET_KEY = 'n@#@5$e9fr$r)@6k-tljx5zw%l(rgk5gj$%z7t@6rtd(o*bduo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+CORS_ORIGIN_WHITELIST = ('petfront.herokuapp.com')
 
 ALLOWED_HOSTS = []
 
@@ -47,9 +51,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
