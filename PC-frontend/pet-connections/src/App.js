@@ -25,8 +25,9 @@ function App() {
         <select a href='#' className='Profile-button' ><option>Profile</option><option>Update Profile</option></select>
         <select a href='#' className='Account-button'><option>Account</option><option>Update Account</option></select>
         <button a href='#'>Search</button>
-        <button a href='#' align='right'>LogOut</button>   
+        <button className='navbar-logout' a href='#' align='right'>LogOut</button>   
         <hr className='Hr-bottom' />
+        
       </div>
       <div>
       <BrowserRouter>
