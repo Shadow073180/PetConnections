@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { Form, Button } from 'react-bootstrap'
-import { Redirect } from 'react-router-dom'
 import us from '../components/media/images/us.jpg'
 import Izzy from '../components/media/images/Izzy.jpg'
 
