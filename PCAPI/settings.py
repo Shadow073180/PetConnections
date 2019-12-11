@@ -36,7 +36,7 @@ MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
 
-CORS_ORIGIN_WHITELIST = ('localhost:3000','//pcfront.herokuapp.com')
+CORS_ORIGIN_WHITELIST = ('localhost:3000','//pcfront-test.herokuapp.com')
 
 # Application definition
 
