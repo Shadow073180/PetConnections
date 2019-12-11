@@ -8,10 +8,11 @@ router = DefaultRouter()
 router.register(r'', DaterViewSet, basename='daters')
 router.register(r'', PotentialViewSet, basename='potentials')
 router.register(r'', MessageViewSet, basename='messages')
-urlpatterns = router.urls
+
 
 
 urlpatterns = [
     path('current_user/', current_user),
-    path('users/', UserList.as_view())
+    path('users/', UserList.as_view()),
+    router.urls
 ]
