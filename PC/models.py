@@ -1,10 +1,12 @@
 # Create your models here.
 from django.db import models
 from django.utils import timezone
+from django.contrib.auth.models import User
 
 # Create your models here.
 
 class Dater(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     gender = models.CharField(max_length=10)
     interested_in = models.CharField(max_length=10)
     astrological_sign = models.CharField(max_length=40)

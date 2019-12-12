@@ -9,7 +9,7 @@ from .serializers import UserSerializer, UserSerializerWithToken
 
 # Create your views here.
 from .models import Dater, Potential, Message
-from .serializers import DaterSerializer, PotentialSerializer, MessageSerializer
+from .serializers import DaterSerializer, PotentialSerializer, MessageSerializer, UserSerializer, UserSerializerWithToken
 from rest_framework import viewsets
 
 
