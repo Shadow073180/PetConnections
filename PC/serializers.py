@@ -42,7 +42,7 @@ class UserSerializerWithToken(serializers.ModelSerializer):
 class DaterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dater
-        fields = ['gender', 'interested_in', 'astrological_sign', 'age', 'height', 'dater_name', 'dater_email_address', 'dater_telephone', 'address_line_1', 'address_line_2', 'city', 'state', 'zip', 'ethnicity', 'body_type', 'looking_for', 'has_children', 'has_children_no', 'education', 'religion', 'smokes', 'smokes_vape', 'dater_story', 'dater_photo', 'pet_photo', 'pet_name', 'pet_breed', 'pet_color', 'pet_age', 'pet_story']
+        fields = ['id','gender', 'interested_in', 'astrological_sign', 'age', 'height', 'dater_name', 'dater_email_address', 'dater_telephone', 'address_line_1', 'address_line_2', 'city', 'state', 'zip', 'ethnicity', 'body_type', 'looking_for', 'has_children', 'has_children_no', 'education', 'religion', 'smokes', 'smokes_vape', 'dater_story', 'dater_photo', 'pet_photo', 'pet_name', 'pet_breed', 'pet_color', 'pet_age', 'pet_story']
 
 
 class PotentialSerializer(serializers.ModelSerializer):
